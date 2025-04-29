@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            color: red;
+        }
+        div > div {
+            background-color: plum;
+        }
+        .es{
+            background-color: blue;
+        }
+        div+section{
+            background-color: green;
+        }
+        div ~ p{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <p>Hola</p>
+            <div class="es">Es</div>
+        </div>
+    </div>
+    <p>Color Amarillo</p>
+    <div></div>
+    <section>
+        Master
+    </section>
+</body>
+</html>
